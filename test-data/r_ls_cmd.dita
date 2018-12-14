@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" domains="(topic reference) (topic hi-d) (topic ut-d) (topic indexing-d) (topic hazard-d) (topic abbrev-d) (topic pr-d) (topic sw-d) (topic ui-d)" ditaarch:DITAArchVersion="1.2" id="i804410" class="- topic/topic       reference/reference "><title class="- topic/title ">check ls command</title><refbody id="i804006" class="- topic/body        reference/refbody "><refsyn id="i804380" class="- topic/section     reference/refsyn ">
+         <synph id="i804222" class="+ topic/ph pr-d/synph ">ls</synph>
+      </refsyn><section class="- topic/section "><title class="- topic/title ">Description</title><p class="- topic/p ">Displays the syntax of the unix list directory contents command</p></section><section id="i804388" class="- topic/section "><title class="- topic/title ">Default</title><p class="- topic/p ">N/A.</p></section><section id="i804392" class="- topic/section "><title class="- topic/title ">Usage Guidelines</title><p class="- topic/p ">Use this
+				command to display the contents of a folder.</p></section><example id="ex1" class="- topic/example ">
+         <title class="- topic/title ">Example</title>
+         <p class="- topic/p ">The following example
+				displays the contents of a folder as a text list</p>
+         <codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock ">ls -1</codeblock>
+         <p class="- topic/p ">The following is sample output for this command:</p>
+
+         <codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock ">
+            <systemoutput class="+ topic/ph sw-d/systemoutput ">
+file-one.txt
+file-two.txt
+            </systemoutput>
+         </codeblock>
+      </example><example id="ex2" class="- topic/example ">
+         <title class="- topic/title ">Example</title>
+         <p class="- topic/p ">The following example
+				displays the contents of a folder as a text list and includes hidden files</p>
+         <codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock ">ls -1a</codeblock>
+         <p class="- topic/p ">The following is sample output for this command:</p>
+
+         <codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock ">
+            <systemoutput class="+ topic/ph sw-d/systemoutput ">
+.
+..
+.hidden-file.txt
+file-one.txt
+file-two.txt
+            </systemoutput>
+         </codeblock>
+      </example></refbody></reference>

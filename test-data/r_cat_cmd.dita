@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference domains="(topic reference) (topic hi-d) (topic ut-d) (topic indexing-d) (topic hazard-d) (topic abbrev-d) (topic pr-d) (topic sw-d) (topic ui-d)" ditaarch:DITAArchVersion="1.2" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="i804410">
+	<title>check cat command</title>
+	
+	<refbody id="i804006">
+		<refsyn id="i804380">
+			<synph id="i804222">ls</synph>
+		</refsyn>
+		
+		<section>
+			<title>Description</title>
+			<p>Displays the contents of a single file</p>
+		</section>
+		
+		
+		<section id="i804392">
+			<title>Usage Guidelines</title>
+			<p>Use this command to display the contents of a file.</p>
+		</section>
+		
+		<example id="ex1">
+			<title>Example</title>
+			<p>The following example
+				displays the contents of the file named "file-one.txt"</p>
+			<codeblock xml:space="preserve" >cat file-one.txt</codeblock>
+			<p>The following is sample output for this command:</p>
+			
+			<codeblock xml:space="preserve" >
+            <systemoutput>
+this is the contents of file-one change
+            </systemoutput>
+         </codeblock>
+		</example>
+		
+	</refbody>
+</reference>
